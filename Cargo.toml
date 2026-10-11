@@ -1,0 +1,19 @@
+[package]
+name = "mosaicer"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.84"
+
+[dependencies]
+anyhow = "1.0.104"
+base64 = "0.23.1"
+clap = { version = "4.5.61", features = ["derive"] }
+image = { version = "0.25.6", default-features = false, features = ["jpeg", "png", "webp", "rayon"] }
+rand = "0.9.5"
+rand_chacha = "0.9.0"
+rayon = "1.12.0"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.152"
+
+[workspace]
+resolver = "3"

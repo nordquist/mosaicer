@@ -4,6 +4,9 @@ CLI that recreates a target image as a photo mosaic: the target is split into a 
 
 **Status:** v1 implemented end-to-end (index, match, render, quality report). Video input is detected but not yet used. Tuning values are hard-coded in `src/config.rs` and will become CLI flags.
 
+![EXAMPLE](/example.png)
+
+
 ## Usage
 
 ```

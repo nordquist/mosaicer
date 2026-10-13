@@ -1,9 +1,9 @@
 //! Hard-coded tuning. Planned to become CLI flags.
 
 /// Number of mosaic columns; rows follow from the target aspect ratio.
-pub const GRID_COLS: u32 = 48;
+pub const GRID_COLS: u32 = 128;
 /// Rendered size of one square tile in the output image.
-pub const TILE_PX: u32 = 64;
+pub const TILE_PX: u32 = 32;
 /// Blend strength toward the target cell colour (0 = pure tiles).
 pub const BLEND_ALPHA: f32 = 0.2;
 /// A tile may not repeat within this Chebyshev radius of cells.
